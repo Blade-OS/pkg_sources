@@ -1,0 +1,7 @@
+Package: bladeos-gnome-extensions
+Version: 43
+Source: bladeos.xyz
+Depends: gnome-shell, gnome-shell-extension-appindicator
+Maintainer: NovusOh <novus@novusoh.xyz>
+Architecture: all
+Description: This package includes all GNOME extensions for the Blade OS desktop.

@@ -1,0 +1,8 @@
+Package: bladeos-gnome-shell
+Version: 45
+Priority: optional
+Depends: bash, desktop-base, systemd
+Source: bladeos.xyz
+Maintainer: NovusOh <novus@novusoh.xyz>
+Architecture: all
+Description: GNOME shell theme for Blade OS.
