@@ -1,4 +1,0 @@
-dpkg-deb --build bladeos-desktop/
-debsigs --sign=origin -k 293E34297BAE00EA bladeos-desktop.deb
-
-dpkg-buildpackage -us -uc -k=293E34297BAE00EA
