@@ -1,5 +1,5 @@
 Package: bladeos-gnome-extensions
-Version: 43
+Version: 43-blade1
 Source: bladeos.xyz
 Depends: gnome-shell, gnome-shell-extension-appindicator
 Maintainer: NovusOh <novus@novusoh.xyz>
