@@ -1,5 +1,5 @@
 Package: bladeos-repo
-Version: 12
+Version: 13.0
 Priority: required
 Source: bladeos.xyz
 Depends: apt
