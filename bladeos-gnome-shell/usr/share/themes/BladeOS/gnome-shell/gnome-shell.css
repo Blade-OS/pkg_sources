@@ -58,7 +58,7 @@
 }
 
 .dnd-button:hover .toggle-switch:checked {
-	background-color: rgba(73, 144, 231, 1);
+	background-color: rgba(73, 231, 144 1);
 }
 
 .dnd-button:focus {
@@ -66,7 +66,7 @@
 }
 
 .dnd-button:focus .toggle-switch {
-	box-shadow: inset 0 0 0 1px rgba(73, 144, 231, 0.15) !important;
+	box-shadow: inset 0 0 0 1px rgba(73, 231, 144 0.15) !important;
 }
 
 
@@ -90,7 +90,7 @@
 
 .button:focus {
 	background-color: rgba(38, 66, 94, 0.2);
-	box-shadow: inset 0 0 0 2px rgba(73, 144, 231, 0.15) !important;
+	box-shadow: inset 0 0 0 2px rgba(73, 231, 144 0.15) !important;
 }
 
 /* clear button */
@@ -412,7 +412,7 @@ StEntry:focus {
 .datemenu-today-button:focus {
 	transition-duration: 100ms;
 	background-color: rgba(38, 66, 94, 0.2);
-	box-shadow: inset 0 0 0 2px rgba(73, 144, 231, 0.15) !important;
+	box-shadow: inset 0 0 0 2px rgba(73, 231, 144 0.15) !important;
 }
 
 /* weekday label */
@@ -464,7 +464,7 @@ StEntry:focus {
 .calendar-day:focus,
 .calendar .calendar-month-header .pager-button:focus {
 	background-color: rgba(38, 66, 94, 0.2);
-	box-shadow: inset 0 0 0 2px rgba(73, 144, 231, 0.15) !important;
+	box-shadow: inset 0 0 0 2px rgba(73, 231, 144 0.15) !important;
 }
 
 .calendar-day:selected {
@@ -484,7 +484,7 @@ StEntry:focus {
 .calendar-today:selected:hover,
 .calendar-today:focus,
 .calendar-today:selected:focus {
-	background-color: rgba(73, 144, 231, 1);
+	background-color: rgba(73, 231, 144 1);
 } 
 
 /* if day has event */
@@ -546,7 +546,7 @@ StEntry:focus {
 .world-clocks-button:focus,
 .weather-button:focus {
 	background-color: rgba(38, 66, 94, 0.2);
-	box-shadow: inset 0 0 0 2px rgba(73, 144, 231, 0.15) !important;
+	box-shadow: inset 0 0 0 2px rgba(73, 231, 144 0.15) !important;
 }
 
 .events-button:active,
@@ -637,7 +637,7 @@ StEntry:focus {
 .grid-search-result:drop .overview-icon,
 .app-well-app.app-folder:drop .overview-icon,
 .app-folder.grid-search-result:drop .overview-icon {
-	border: 2px solid rgba(73, 144, 231, 0.15);
+	border: 2px solid rgba(73, 231, 144 0.15);
 	background-color: rgba(38, 66, 94, 0.2);
 }
 
@@ -684,7 +684,7 @@ StEntry:focus {
 }
 
 .app-folder-dialog .folder-name-container .edit-folder-button:focus {
-	box-shadow: inset 0 0 0 2px rgba(73, 144, 231, 0.15) !important;
+	box-shadow: inset 0 0 0 2px rgba(73, 231, 144 0.15) !important;
 }
 
 
@@ -772,7 +772,7 @@ StEntry:focus {
 	width: 10px;
 	height: 5px;
 	border-radius: 5px;
-	background: rgba(73, 144, 231, 0.15);
+	background: rgba(73, 231, 144 0.15);
 	transition-duration: 100ms;
 }
 
@@ -937,13 +937,13 @@ StEntry:focus {
 	width: 36px;
 	height: 36px;
 	border-radius: 99px;
-	border: 4px rgba(73, 144, 231, 0.15);
+	border: 4px rgba(73, 231, 144 0.15);
 	padding: 4px;
 }
 
 /* capture button */
 .screenshot-ui-capture-button .screenshot-ui-capture-button-circle {
-	background-color: rgba(73, 144, 231, 0.15);
+	background-color: rgba(73, 231, 144 0.15);
 	transition-duration: 100ms;
 	border-radius: 99px;
 }
@@ -993,7 +993,7 @@ StEntry:focus {
 }
 
 .screenshot-ui-shot-cast-button:checked {
-	background-color: rgba(73, 144, 231, 0.15);
+	background-color: rgba(73, 231, 144 0.15);
 	color: rgba(7, 25, 43, 0.87);
 }
 
@@ -1327,7 +1327,7 @@ StEntry:focus {
 
 .modal-dialog-linked-button:last-child:hover,
 .modal-dialog-linked-button:last-child:focus {
-	background-color: rgba(73, 144, 231, 1);
+	background-color: rgba(73, 231, 144 1);
 }
 
 .modal-dialog-linked-button:focus,
@@ -1376,7 +1376,7 @@ StEntry:focus {
 .icon-button:focus,
 .quick-toggle:focus,
 .slider-bin:focus {
-	box-shadow: inset 0 0 0 2px rgba(73, 144, 231, 0.15) !important;
+	box-shadow: inset 0 0 0 2px rgba(73, 231, 144 0.15) !important;
 }
 
 
@@ -1431,7 +1431,7 @@ StEntry:focus {
 .quick-toggle:checked:hover,
 .quick-menu-toggle .quick-toggle:checked:hover,
 .quick-menu-toggle .quick-toggle-arrow:checked:hover {
-	background-color: rgba(73, 144, 231, 1);
+	background-color: rgba(73, 231, 144 1);
 }
 
 
@@ -1507,7 +1507,7 @@ https://gitlab.gnome.org/GNOME/gnome-shell/-/commit/beb77f58243265a6cc62b720a5b0
 
 .background-apps-quick-toggle:focus {
 	background-color: rgba(181, 254, 217, 0.08);
-	box-shadow: inset 0 0 0 2px rgba(73, 144, 231, 0.15);
+	box-shadow: inset 0 0 0 2px rgba(73, 231, 144 0.15);
 }
 
 /* background app name */
@@ -1572,7 +1572,7 @@ https://gitlab.gnome.org/GNOME/gnome-shell/-/commit/beb77f58243265a6cc62b720a5b0
 }
 .message-list .message:focus {
 	background-color: rgba(38, 66, 94, 0.2);
-	box-shadow: inset 0 0 0 2px rgba(73, 144, 231, 0.15) !important;
+	box-shadow: inset 0 0 0 2px rgba(73, 231, 144 0.15) !important;
 }
 
 /* text / header in message */
@@ -1645,7 +1645,7 @@ https://gitlab.gnome.org/GNOME/gnome-shell/-/commit/beb77f58243265a6cc62b720a5b0
 
 
 /* URLs in messages */
-.url-highlighter { link-color: rgba(73, 144, 231, 0.15); }
+.url-highlighter { link-color: rgba(73, 231, 144 0.15); }
 /* Search */
 
 
