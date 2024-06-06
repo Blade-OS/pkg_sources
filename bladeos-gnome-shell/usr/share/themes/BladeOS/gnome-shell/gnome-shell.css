@@ -46,7 +46,7 @@
 }
 
 .dnd-button .toggle-switch {
-	background-color: rgba(181, 217, 254, 0.08);
+	background-color: rgba(181, 254, 217, 0.08);
 }
 
 .dnd-button:hover .toggle-switch {
@@ -73,14 +73,14 @@
 /* Buttons */
 
 .button {
-	color: rgba(234, 243, 251, 1);
-	background-color: rgba(181, 217, 254, 0.08);
+	color: rgba(234, 251, 243, 1);
+	background-color: rgba(181, 254, 217, 0.08);
 	box-shadow: inset 0 0 0 1px rgba(652, 652, 652, 0.03);
 }
 
 .button:insensitive {
 	box-shadow: none;
-	color: rgba(234, 243, 251, 0.67);
+	color: rgba(234, 251, 243, 0.67);
 }
 
 .button:hover,
@@ -106,7 +106,7 @@
 .level {
 	height: 8px;
 	-barlevel-height: 8px;
-	-barlevel-background-color: rgba(181, 217, 254, 0.08);
+	-barlevel-background-color: rgba(181, 254, 217, 0.08);
 	box-shadow: inset 0 0 0 1px rgba(652, 652, 652, 0.03);
 	/* fill */
 	-barlevel-active-background-color: rgba(53, 228, 132, 1);
@@ -158,31 +158,31 @@ StEntry {
 	transition-duration: 100ms;
 	border: 1px solid rgba(652, 652, 652, 0.03);
 	background-color: rgba(28, 30, 32, 0.9);
-	color: rgba(234, 243, 251, 0.67);
+	color: rgba(234, 251, 243, 0.67);
 	selection-background-color: rgba(53, 228, 132, 1);
-	selected-color: rgba(234, 243, 251, 1);
+	selected-color: rgba(234, 251, 243, 1);
 }
 
 /* icon in entry */
 StEntry StLabel {
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 }
 
 /* change icon color if entry not selected */
 StEntry StLabel:insensitive {
-	color: rgba(234, 243, 251, 0.67);
+	color: rgba(234, 251, 243, 0.67);
 }
 
 StEntry:hover,
 StEntry:focus,
 StEntry:active {
-	border: 1px solid rgba(234, 243, 251, 0.38);
-	background-color: rgba(181, 217, 254, 0.08);
+	border: 1px solid rgba(234, 251, 243, 0.38);
+	background-color: rgba(181, 254, 217, 0.08);
 	box-shadow: none;
 }
 
 StEntry:focus {
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 }
 
 
@@ -192,7 +192,7 @@ StEntry:focus {
 }
 
 .unlock-dialog StEntry:focus {
-	box-shadow: inset 0 0 0 1px rgba(234, 243, 251, 0.38);
+	box-shadow: inset 0 0 0 1px rgba(234, 251, 243, 0.38);
 }
 /* Panel */
 
@@ -214,10 +214,10 @@ StEntry:focus {
 .panel-button,
 .panel-button .clock, /* Date & clock */
 .clock-display StIcon { /* DND / new messages icon */
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 	border-radius: 14px;
 	border: 4px solid transparent;
-	background-color: rgba(181, 217, 254, 0.08);
+	background-color: rgba(181, 254, 217, 0.08);
 	box-shadow: inset 0 0 0 1px rgba(652, 652, 652, 0.03);
 }
 
@@ -230,7 +230,7 @@ StEntry:focus {
 
 /* workspaces indicator in activities button (45+) */
 #panel .workspace-dot {
-	background-color: rgba(234, 243, 251, 1);
+	background-color: rgba(234, 251, 243, 1);
 }
 
 /*  indicator for active */
@@ -269,7 +269,7 @@ StEntry:focus {
 #panel.unlock-screen .panel-button,
 #panel.login-screen .panel-button,
 #panel:overview .panel-button {
-	color: rgba(234, 243, 251, 1) !important;
+	color: rgba(234, 251, 243, 1) !important;
 }
 
 
@@ -288,7 +288,7 @@ StEntry:focus {
 
 .popup-menu-content, /* popover content */
 .candidate-popup-content { /* IBus Candidate Popup (i dunno how to call it) */
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 	background: rgba(36, 36, 36, 1); 
 	padding: 10px;
 	border-radius: 20px;
@@ -305,9 +305,9 @@ StEntry:focus {
 .popup-menu-item:focus,
 .popup-menu-item:hover,
 .popup-menu-item:checked {
-	background-color: rgba(181, 217, 254, 0.08) !important;
+	background-color: rgba(181, 254, 217, 0.08) !important;
 	box-shadow: inset 0 0 0 1px rgba(652, 652, 652, 0.03) !important;
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 }
 
 .popup-menu-item:checked {
@@ -316,7 +316,7 @@ StEntry:focus {
 
 .popup-menu-item:active {
 	background-color: rgba(0, 232, 0, 0.13);
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 }
 
 /* 44 separator margin fix */
@@ -338,8 +338,8 @@ StEntry:focus {
 
 /* popover submenus */
 .popup-sub-menu {
-	background-color: rgba(181, 217, 254, 0.08);
-	color: rgba(234, 243, 251, 1);
+	background-color: rgba(181, 254, 217, 0.08);
+	color: rgba(234, 251, 243, 1);
 	box-shadow: inset 0 0 0 1px rgba(652, 652, 652, 0.03);
 	border-radius: 0 0 12px 12px;
 	margin: 0 0 2px 0;
@@ -348,7 +348,7 @@ StEntry:focus {
 /* submenu items */
 .popup-sub-menu .popup-menu-item {
 	margin: 0;
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 	background-color: transparent;
 }
 
@@ -363,18 +363,18 @@ StEntry:focus {
 }
 
 .popup-menu-item:insensitive {
-	color: rgba(234, 243, 251, 0.38);
+	color: rgba(234, 251, 243, 0.38);
 	margin: 0;
 }
 
 /* all other graphical elements (sliders), OpenWeather Extension */
 .popup-inactive-menu-item {
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 	background-color: transparent;
 }
 
 .popup-inactive-menu-item:insensitive {
-	color: rgba(234, 243, 251, 0.67) !important;
+	color: rgba(234, 251, 243, 0.67) !important;
 }
 /* Date / Time menu */
 
@@ -398,7 +398,7 @@ StEntry:focus {
 
 /* today header button */
 .datemenu-today-button {
-	color: rgba(234, 243, 251, 0.67);
+	color: rgba(234, 251, 243, 0.67);
 	background-color: none;
 	border-radius: 12px;
 }
@@ -437,18 +437,18 @@ StEntry:focus {
 
 /* month header */
 .calendar-month-label {
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 }
 
 /* day of week heading */
 .calendar-day.calendar-day-heading {
-	color: rgba(234, 243, 251, 0.67);
+	color: rgba(234, 251, 243, 0.67);
 }
 
 /* day buttons, prev/next month button */
 .calendar-day,
 .calendar-month-header .pager-button {
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 	border-radius: 10px;
 	transition-duration: 100ms;
 }
@@ -457,7 +457,7 @@ StEntry:focus {
 .calendar-day:selected:hover,
 .calendar .calendar-month-header .pager-button:hover {
 	background-color: rgba(0, 232, 0, 0.13);
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 	box-shadow: inset 0 0 0 1px rgba(652, 652, 652, 0.03);
 }
 
@@ -476,7 +476,7 @@ StEntry:focus {
 .calendar-today,
 .calendar-today:selected {
 	background-color: rgba(53, 228, 132, 1);
-	color: rgba(234, 243, 251, 1) !important;
+	color: rgba(234, 251, 243, 1) !important;
 	box-shadow: inset 0 0 0 1px rgba(652, 652, 652, 0.03);
 }
 
@@ -502,13 +502,13 @@ StEntry:focus {
 /* weekend day button */
 .calendar .calendar-nonwork-day, /* up to 44 */
 .calendar-weekend { /* 45+ */
-	color: rgba(234, 243, 251, 0.67);
+	color: rgba(234, 251, 243, 0.67);
 }
 
 /* other month day button */
 .calendar .calendar-other-month-day, /* up to 44 */
 .calendar-other-month { /* 45+ */
-	color: rgba(234, 243, 251, 0.38) !important;
+	color: rgba(234, 251, 243, 0.38) !important;
 }
 
 .calendar .calendar-other-month-day.calendar-day-with-events, /* up to 44 */
@@ -518,8 +518,8 @@ StEntry:focus {
 }
 
 .calendar .calendar-week-number {
-	background-color: rgba(181, 217, 254, 0.08);
-	color: rgba(234, 243, 251, 0.67);
+	background-color: rgba(181, 254, 217, 0.08);
+	color: rgba(234, 251, 243, 0.67);
 	box-shadow: inset 0 0 0 1px rgba(652, 652, 652, 0.03);
 	border-radius: 7px;
 }
@@ -531,7 +531,7 @@ StEntry:focus {
 .world-clocks-button,
 .weather-button {
 	background-color: rgba(28, 30, 32, 0.9);
-	color: rgba(234, 243, 251, 0.67);
+	color: rgba(234, 251, 243, 0.67);
 	border-radius: 14px;
 	box-shadow: inset 0 0 0 1px rgba(652, 652, 652, 0.03);
 }
@@ -539,7 +539,7 @@ StEntry:focus {
 .events-button:hover,
 .world-clocks-button:hover,
 .weather-button:hover {
-	background-color: rgba(181, 217, 254, 0.08);
+	background-color: rgba(181, 254, 217, 0.08);
 }
 
 .events-button:focus,
@@ -559,33 +559,33 @@ StEntry:focus {
 .weather-button .weather-header,
 .events-button .events-title,
 .world-clocks-button .world-clocks-header {
-	color: rgba(234, 243, 251, 0.67);
+	color: rgba(234, 251, 243, 0.67);
 }
 
 
 /* Events section */
 .events-button .events-list {
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 }
 .events-button .event-time {
-	color: rgba(234, 243, 251, 0.67);
+	color: rgba(234, 251, 243, 0.67);
 }
 
 
 /* World clocks section */
 .world-clocks-button .world-clocks-time {
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 }
 
 .world-clocks-button .world-clocks-city,
 .world-clocks-button .world-clocks-timezone {
-	color: rgba(234, 243, 251, 0.67);
+	color: rgba(234, 251, 243, 0.67);
 }
 
 
 /* Weather section */
 .weather-button .weather-forecast-time {
-	color: rgba(234, 243, 251, 0.67);
+	color: rgba(234, 251, 243, 0.67);
 }
 
 /* Apps / Dash */
@@ -598,12 +598,12 @@ StEntry:focus {
 	box-shadow: inset 0 0 0 0px rgba(255, 255, 255, 0); /* fix default dash focused box-shadow*/
 	transition-duration: 100ms;
 	border-radius: 20px;
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 }
 
 /* Show Apps icon */
 .show-apps .overview-icon {
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 }
 
 /* folders */
@@ -619,7 +619,7 @@ StEntry:focus {
 .show-apps:hover .overview-icon,
 .show-apps:focus .overview-icon {
 	box-shadow: inset 0 0 0 1px rgba(652, 652, 652, 0.03);
-	background-color: rgba(181, 217, 254, 0.08);
+	background-color: rgba(181, 254, 217, 0.08);
 }
 
 /* app icons effects in dash */
@@ -656,7 +656,7 @@ StEntry:focus {
 /* folder title */
 .app-folder-dialog .folder-name-container .folder-name-label {
 	padding: 5px 7px;
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 	font-weight: 700;
 	transition-duration: 100ms;
 }
@@ -666,16 +666,16 @@ StEntry:focus {
 	font-weight: 700;
 	border: none;
 	box-shadow: inset 0 0 0 1px rgba(652, 652, 652, 0.07);
-	background-color: rgba(181, 217, 254, 0.08);
+	background-color: rgba(181, 254, 217, 0.08);
 	selection-background-color: rgba(53, 228, 132, 1);
-	selected-color: rgba(234, 243, 251, 1);
+	selected-color: rgba(234, 251, 243, 1);
 }
 
 /* edit folder name button */
 .app-folder-dialog .folder-name-container .edit-folder-button {
 	border-radius: 12px;
-	background-color: rgba(181, 217, 254, 0.08);
-	color: rgba(234, 243, 251, 1);
+	background-color: rgba(181, 254, 217, 0.08);
+	color: rgba(234, 251, 243, 1);
 	box-shadow: inset 0 0 0 1px rgba(652, 652, 652, 0.03);
 }
 
@@ -689,7 +689,7 @@ StEntry:focus {
 
 
 .page-indicator .page-indicator-icon {
-	background-color: rgba(234, 243, 251, 0.67);
+	background-color: rgba(234, 251, 243, 0.67);
 }
 
 
@@ -702,16 +702,16 @@ StEntry:focus {
 
 .page-navigation-arrow > StIcon {
 	margin: 0;
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 }
 
 .page-navigation-arrow:hover {
-	background-color: rgba(181, 217, 254, 0.08);
+	background-color: rgba(181, 254, 217, 0.08);
 	box-shadow: inset 0 0 0 1px rgba(652, 652, 652, 0.03);
 }
 
 .page-navigation-arrow:hover > StIcon {
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 	background-color: rgba(0, 0, 0, 0);
 }
 
@@ -760,7 +760,7 @@ StEntry:focus {
 /* popup label when hovering the app in dash */
 .dash-label {
 	background-color: rgba(28, 30, 32, 0.9);
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 	border-radius: 12px;
 	border: 1px solid rgba(652, 652, 652, 0.07);
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.08);
@@ -799,7 +799,7 @@ StEntry:focus {
 
 /* pinned apps | running apps */
 .dash-separator {
-	box-shadow: 0 0 0 0.25px rgba(234, 243, 251, 0.38);
+	box-shadow: 0 0 0 0.25px rgba(234, 251, 243, 0.38);
 }
 
 
@@ -864,7 +864,7 @@ StEntry:focus {
 
 /* main screenshot panel section */
 .screenshot-ui-panel {
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 	background-color: rgba(36, 36, 36, 1);
 	border: 1px solid rgba(652, 652, 652, 0.07);
 	border-radius: 22px;
@@ -873,7 +873,7 @@ StEntry:focus {
 
 .screenshot-ui-show-pointer-button, /* show pointer */
 .screenshot-ui-type-button { /* Selection / Screen / Window */
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 	border-radius: 15px;
 	transition-duration: 100ms;
 }
@@ -882,8 +882,8 @@ StEntry:focus {
 .screenshot-ui-type-button:hover,
 .screenshot-ui-show-pointer-button:focus,
 .screenshot-ui-type-button:focus {
-	background: rgba(181, 217, 254, 0.08);
-	color: rgba(234, 243, 251, 1);
+	background: rgba(181, 254, 217, 0.08);
+	color: rgba(234, 251, 243, 1);
 }
 
 .screenshot-ui-show-pointer-button:hover,
@@ -901,12 +901,12 @@ StEntry:focus {
 .screenshot-ui-type-button:checked:focus {
 	background-color: rgba(0, 232, 0, 0.13);
 	box-shadow: inset 0 0 0 1px rgba(652, 652, 652, 0.03);
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 }
 
 .screenshot-ui-show-pointer-button:insensitive,
 .screenshot-ui-type-button:insensitive {
-	color: rgba(234, 243, 251, 0.38);
+	color: rgba(234, 251, 243, 0.38);
 }
 
 
@@ -927,7 +927,7 @@ StEntry:focus {
 
 /* check icon when selected window */
 .screenshot-ui-window-selector-window:checked .screenshot-ui-window-selector-check {
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 	background-color: rgba(53, 228, 132, 1);
 }
 
@@ -975,7 +975,7 @@ StEntry:focus {
 
 /* screenshot / screencast buttons section */
 .screenshot-ui-shot-cast-container {
-	background-color: rgba(181, 217, 254, 0.08);
+	background-color: rgba(181, 254, 217, 0.08);
 	box-shadow: inset 0 0 0 1px rgba(652, 652, 652, 0.03);
 }
 
@@ -1000,7 +1000,7 @@ StEntry:focus {
 
 /* tooltip for elements */
 .screenshot-ui-tooltip {
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 	background-color: rgba(28, 30, 32, 0.9);
 	padding: 6px 12px;
 	border: 1px solid rgba(652, 652, 652, 0.03);
@@ -1012,7 +1012,7 @@ StEntry:focus {
 .window-close, /* close button (Overview - Workspaces - Selected window) */
 .screenshot-ui-close-button { /* close button (Screenshot UI) */
 	background-color: rgba(36, 38, 40, 1);
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 	border: 1px solid rgba(652, 652, 652, 0.03);
 	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 	transition-duration: 100ms;
@@ -1086,7 +1086,7 @@ StEntry:focus {
 .window-caption {
 	spacing: 20px;
 	border-radius: 12px;
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 	background-color: rgba(28, 30, 32, 0.9);
 	border: 1px solid rgba(652, 652, 652, 0.03);
 	padding: 4px 8px;
@@ -1104,7 +1104,7 @@ StEntry:focus {
 /* thumbnails on overview (workspaces list under search) */
 .workspace-thumbnail {
 	border: none; /* because of impossibility round fullscreen apps */
-	background-color: rgba(181, 217, 254, 0.08);
+	background-color: rgba(181, 254, 217, 0.08);
 	border: 1px solid rgba(652, 652, 652, 0.03);
 }
 
@@ -1118,7 +1118,7 @@ StEntry:focus {
 /* selected indicator */
 .workspace-thumbnail-indicator {
 	background-color: rgba(38, 66, 94, 0.2);
-	border-color: rgba(234, 243, 251, 0.38);
+	border-color: rgba(234, 251, 243, 0.38);
 	border-width: 1px;
 	border-radius: 3px;
 }
@@ -1179,7 +1179,7 @@ StEntry:focus {
 /* system usage  */
 .level-bar {
 	padding: 0;
-	background-color: rgba(181, 217, 254, 0.08);
+	background-color: rgba(181, 254, 217, 0.08);
 }
 
 /* system usage levels */
@@ -1201,7 +1201,7 @@ StEntry:focus {
 .resize-popup, /* i dunno what is that :( */
 .workspace-switcher, /* ctrl + alt + arr_left/arr_right  */
 .osd-window /* volume/brightness/.. switcher */ {
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 	background-color: rgba(36, 36, 36, 1);
 	border: 1px solid rgba(652, 652, 652, 0.07);
 	border-radius: 20px;
@@ -1220,25 +1220,25 @@ StEntry:focus {
 .switcher-list .item-box:focus,
 .switcher-list .item-box:selected,
 .switcher-list .item-box:outlined {
-	background-color: rgba(181, 217, 254, 0.08);
+	background-color: rgba(181, 254, 217, 0.08);
 	box-shadow: inset 0 0 0 1px rgba(652, 652, 652, 0.03);
 }
 
 
 /* arrow if app has multiple windows */
 .switcher-arrow {
-  color: rgba(234, 243, 251, 0.38);
+  color: rgba(234, 251, 243, 0.38);
   border-color: transparent;
 }
 
 .switcher-arrow:highlighted {
-	color: rgba(234, 243, 251, 0.67);
+	color: rgba(234, 251, 243, 0.67);
 }
 
 
 /* ctrl + alt + arr_left/arr_right */
 .ws-switcher-indicator {
-	background-color: rgba(234, 243, 251, 0.67);
+	background-color: rgba(234, 251, 243, 0.67);
 }
 
 
@@ -1248,7 +1248,7 @@ StEntry:focus {
 	background-color: rgba(36, 36, 36, 1);
 	border: none;
 	box-shadow: inset 0 0 0 1px rgba(652, 652, 652, 0.03);
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 }
 
 
@@ -1271,8 +1271,8 @@ StEntry:focus {
 	padding: 10px 0 !important;
 	border-radius: 12px !important;
 	box-shadow: inset 0 0 0 1px rgba(652, 652, 652, 0.03);
-	background-color: rgba(181, 217, 254, 0.08);
-	color: rgba(234, 243, 251, 1);
+	background-color: rgba(181, 254, 217, 0.08);
+	color: rgba(234, 251, 243, 1);
 	animation-duration: 100ms;
 }
 
@@ -1317,12 +1317,12 @@ StEntry:focus {
 .notification-button:hover,
 .notification-button:focus {
 	background: rgba(0, 232, 0, 0.13);
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 }
 
 .modal-dialog-linked-button:last-child {
 	background-color: rgba(53, 228, 132, 1);
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 }
 
 .modal-dialog-linked-button:last-child:hover,
@@ -1334,7 +1334,7 @@ StEntry:focus {
 .hotplug-notification-item:focus,
 .notification-button:focus {
 	animation-duration: 100ms;
-	box-shadow: inset 0 0 0 1px rgba(234, 243, 251, 0.38) !important;
+	box-shadow: inset 0 0 0 1px rgba(234, 251, 243, 0.38) !important;
 }
 
 .modal-dialog-linked-button:focus:hover,
@@ -1343,13 +1343,13 @@ StEntry:focus {
 .modal-dialog-linked-button:focus:active,
 .hotplug-notification-item:focus:active,
 .notification-button:focus:active {
-	box-shadow: inset 0 0 0 1px rgba(234, 243, 251, 0.67) !important;
+	box-shadow: inset 0 0 0 1px rgba(234, 251, 243, 0.67) !important;
 }
 
 .modal-dialog .modal-dialog-linked-button:insensitive,
 .hotplug-notification-item:insensitive,
 .notification-banner .notification-button:insensitive {
-	color: rgba(234, 243, 251, 0.67);
+	color: rgba(234, 251, 243, 0.67);
 	background-color: rgba(38, 66, 94, 0.6);
 }
 /* Quick Settings */
@@ -1363,8 +1363,8 @@ StEntry:focus {
 
 /* screenshot / settings / lock / power options; part of quick-toggle-arrow [44+] */
 .icon-button {
-	background-color: rgba(181, 217, 254, 0.08);
-	color: rgba(234, 243, 251, 1);
+	background-color: rgba(181, 254, 217, 0.08);
+	color: rgba(234, 251, 243, 1);
 	transition-duration: 100ms;
 	box-shadow: inset 0 0 0 1px rgba(652, 652, 652, 0.03);
 }
@@ -1383,9 +1383,9 @@ StEntry:focus {
 /* toggles in QS */
 .quick-toggle, /* 43 */
 .quick-menu-toggle .quick-toggle { /* 44+ */
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 	border-radius: 15px;
-	background-color: rgba(181, 217, 254, 0.08);
+	background-color: rgba(181, 254, 217, 0.08);
 	transition-duration: 100ms;
 }
 
@@ -1423,7 +1423,7 @@ StEntry:focus {
 .quick-toggle:checked,
 .quick-menu-toggle .quick-toggle:checked,
 .quick-menu-toggle .quick-toggle-arrow:checked {
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 	background-color: rgba(53, 228, 132, 1);
 	border-color: transparent;
 }
@@ -1440,11 +1440,11 @@ StEntry:focus {
 .quick-slider .slider-bin {
 	padding: 2px 1px;
 	margin: 0;
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 }
 
 .quick-slider .slider-bin:focus {
-	background-color: rgba(181, 217, 254, 0.08);
+	background-color: rgba(181, 254, 217, 0.08);
 }
 
 /* quick slider icon */
@@ -1457,8 +1457,8 @@ StEntry:focus {
 }
 
 .quick-slider .icon-button:hover {
-	background-color: rgba(181, 217, 254, 0.08);
-	color: rgba(234, 243, 251, 1);
+	background-color: rgba(181, 254, 217, 0.08);
+	color: rgba(234, 251, 243, 1);
 	box-shadow: inset 0 0 0 1px rgba(652, 652, 652, 0.03);
 }
 
@@ -1468,7 +1468,7 @@ StEntry:focus {
 https://gitlab.gnome.org/GNOME/gnome-shell/-/commit/beb77f58243265a6cc62b720a5b0ecd66efd50a1#fb75f14505e58d3bc51f2498ef328d1405d89e83_94_95 */
 .quick-toggle-menu {
 	background-color: rgba(36, 36, 36, 1) !important; 
-	color: rgba(234, 243, 251, 1) !important;
+	color: rgba(234, 251, 243, 1) !important;
 	border-radius: 18px;
 	box-shadow: inset 0 0 0 1px rgba(652, 652, 652, 0.03);
   	margin: 12px auto;
@@ -1477,7 +1477,7 @@ https://gitlab.gnome.org/GNOME/gnome-shell/-/commit/beb77f58243265a6cc62b720a5b0
 /* header icon in expanded menu */
 .quick-toggle-menu .header .icon {
 	background-color: rgba(0, 232, 0, 0.13);
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 	border-radius: 12px;
 	icon-size: 1.4em;
 	box-shadow: inset 0 0 0 1px rgba(652, 652, 652, 0.03);
@@ -1485,12 +1485,12 @@ https://gitlab.gnome.org/GNOME/gnome-shell/-/commit/beb77f58243265a6cc62b720a5b0
 
 .quick-toggle-menu .header .icon.active {
 	background-color: rgba(53, 228, 132, 1);
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 }
 
 /* connect / disconnect text color (expanded menu) */
 .device-subtitle {
-	color: rgba(234, 243, 251, 0.67);
+	color: rgba(234, 251, 243, 0.67);
 }
 
 
@@ -1502,24 +1502,24 @@ https://gitlab.gnome.org/GNOME/gnome-shell/-/commit/beb77f58243265a6cc62b720a5b0
 }
 
 .background-apps-quick-toggle:hover {
-	background-color: rgba(181, 217, 254, 0.08);
+	background-color: rgba(181, 254, 217, 0.08);
 }
 
 .background-apps-quick-toggle:focus {
-	background-color: rgba(181, 217, 254, 0.08);
+	background-color: rgba(181, 254, 217, 0.08);
 	box-shadow: inset 0 0 0 2px rgba(73, 144, 231, 0.15);
 }
 
 /* background app name */
 .background-app-item .title {
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 	font-weight: 600;
 }
 
 /* close button */
 .background-app-item .close-button {
-	color: rgba(234, 243, 251, 1);
-	background-color: rgba(181, 217, 254, 0.08);
+	color: rgba(234, 251, 243, 1);
+	background-color: rgba(181, 254, 217, 0.08);
 	box-shadow: inset 0 0 0 1px rgba(652, 652, 652, 0.03);
 }
 
@@ -1536,7 +1536,7 @@ https://gitlab.gnome.org/GNOME/gnome-shell/-/commit/beb77f58243265a6cc62b720a5b0
 
 /* "No Notifications" text */
 .message-list-placeholder {
-	color: rgba(234, 243, 251, 0.38);
+	color: rgba(234, 251, 243, 0.38);
 	font-weight: 700;
 }
 
@@ -1547,7 +1547,7 @@ https://gitlab.gnome.org/GNOME/gnome-shell/-/commit/beb77f58243265a6cc62b720a5b0
 
 /* popup messages */
 .message {
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 	border-radius: 18px;
 }
 
@@ -1555,7 +1555,7 @@ https://gitlab.gnome.org/GNOME/gnome-shell/-/commit/beb77f58243265a6cc62b720a5b0
 /* Message OSD */
 .notification-banner {
 	background-color: rgba(36, 36, 36, 1);
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 	border: 1px solid rgba(652, 652, 652, 0.07);
 	box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.07);
 }
@@ -1568,7 +1568,7 @@ https://gitlab.gnome.org/GNOME/gnome-shell/-/commit/beb77f58243265a6cc62b720a5b0
 	transition-duration: 100ms;
 }
 .message-list .message:hover {
-	background-color: rgba(181, 217, 254, 0.08);
+	background-color: rgba(181, 254, 217, 0.08);
 }
 .message-list .message:focus {
 	background-color: rgba(38, 66, 94, 0.2);
@@ -1578,20 +1578,20 @@ https://gitlab.gnome.org/GNOME/gnome-shell/-/commit/beb77f58243265a6cc62b720a5b0
 /* text / header in message */
 .message .message-body,
 .message-title {
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 }
 
 /* message time stamp */
 .message .message-secondary-bin > .event-time {
-	color: rgba(234, 243, 251, 0.67);
+	color: rgba(234, 251, 243, 0.67);
 }
 
 
 /* close button */
 .message-close-button {
 	border-radius: 9px;
-	color: rgba(234, 243, 251, 1);
-	background-color: rgba(181, 217, 254, 0.08);
+	color: rgba(234, 251, 243, 1);
+	background-color: rgba(181, 254, 217, 0.08);
 	box-shadow: inset 0 0 0 1px rgba(652, 652, 652, 0.03);
 	transition-duration: 100ms;
 }
@@ -1601,7 +1601,7 @@ https://gitlab.gnome.org/GNOME/gnome-shell/-/commit/beb77f58243265a6cc62b720a5b0
 }
 
 .message-close-button:active {
-	color: rgba(234, 243, 251, 0.67);
+	color: rgba(234, 251, 243, 0.67);
 }
 
 
@@ -1610,17 +1610,17 @@ https://gitlab.gnome.org/GNOME/gnome-shell/-/commit/beb77f58243265a6cc62b720a5b0
 	border-radius: 12px;
 	padding: 0 14px;
 	margin: 20px 2px;
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 	transition-duration: 100ms;
 }
 
 .message-media-control:hover {
-	background-color: rgba(181, 217, 254, 0.08);
+	background-color: rgba(181, 254, 217, 0.08);
 	box-shadow: inset 0 0 0 1px rgba(652, 652, 652, 0.03);
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 }
 
-.message-media-control:insensitive { color: rgba(234, 243, 251, 0.38); }
+.message-media-control:insensitive { color: rgba(234, 251, 243, 0.38); }
 
 /* fix margin for last button */
 .message-media-control:last-child:ltr { margin-right: 20px; }
@@ -1635,7 +1635,7 @@ https://gitlab.gnome.org/GNOME/gnome-shell/-/commit/beb77f58243265a6cc62b720a5b0
 
 /* when there is no artwork */
 .media-message-cover-icon.fallback {
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 	background-color: rgba(0, 232, 0, 0.13);
 	border: 1px solid rgba(652, 652, 652, 0.03);
 	border-radius: 12px;
@@ -1651,7 +1651,7 @@ https://gitlab.gnome.org/GNOME/gnome-shell/-/commit/beb77f58243265a6cc62b720a5b0
 
 /* "no results" text */
 .search-statustext {
-  color: rgba(234, 243, 251, 0.38);
+  color: rgba(234, 251, 243, 0.38);
   font-weight: 700;
 }
 
@@ -1662,22 +1662,22 @@ https://gitlab.gnome.org/GNOME/gnome-shell/-/commit/beb77f58243265a6cc62b720a5b0
 	border-radius: 15px;
 	border: none;
 	background-color: rgba(28, 30, 32, 0.9);
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 }
 
 /* provider section label */
 .search-provider-icon .list-search-provider-content .list-search-provider-details {
 	width: 120px;
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 }
 
 /* search result listitem -> item title (with leading icon) */
 .list-search-result .list-search-result-title {
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 }
 /* search result listitem -> item description */
 .list-search-result .list-search-result-description {
-	color: rgba(234, 243, 251, 0.67);
+	color: rgba(234, 251, 243, 0.67);
 }
 
 .list-search-result:focus,
@@ -1693,5 +1693,5 @@ https://gitlab.gnome.org/GNOME/gnome-shell/-/commit/beb77f58243265a6cc62b720a5b0
 .list-search-result:active,
 .search-provider-icon:active {
 	background-color: rgba(0, 232, 0, 0.13);
-	color: rgba(234, 243, 251, 1);
+	color: rgba(234, 251, 243, 1);
 }
