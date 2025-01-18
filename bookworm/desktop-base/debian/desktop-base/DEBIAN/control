@@ -1,8 +1,8 @@
 Package: desktop-base
-Version: 13.01
+Version: 13.02
 Architecture: all
 Maintainer: Debian Desktop Team <debian-desktop@lists.debian.org>
-Installed-Size: 132230
+Installed-Size: 152774
 Depends: librsvg2-common, fonts-quicksand
 Recommends: plymouth-label
 Suggests: gnome | kde-standard | xfce4 | wmaker

@@ -1,12 +1,12 @@
 {
     "KPlugin": {
-        "Name": "Emerald",
+        "Name": "Blade OS",
         "Id": "Emerald",
-        "License": "GPLv2+",
+        "License": "MIT",
         "Authors": [
             {
-                "Name": "Juliet Taka",
-                "Email": "juliettetaka.belin@gmail.com"
+                "Name": "Cole Ames",
+                "Email": "cole@colebolebole.xyz"
             }
         ]
     }
