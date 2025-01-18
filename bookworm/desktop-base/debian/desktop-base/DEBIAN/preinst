@@ -1,0 +1,12 @@
+#!/bin/sh
+set -e
+
+# Tag to allow some debhelper commands to inject relevant code
+
+
+if [ "${1}" = "upgrade" ]; then
+        # *Last* remove *highest priority* alternative for active theme
+        update-alternatives --remove \
+            desktop-login-background \
+            /usr/share/desktop-base/active-theme/login/background.svg
+    fi

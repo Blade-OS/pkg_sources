@@ -1,0 +1,8 @@
+Package: bladeos-repo
+Version: 13.0
+Priority: required
+Source: bladeos.xyz
+Depends: apt
+Maintainer: NovusOh <novus@novusoh.xyz>
+Architecture: all
+Description: This package contains the repo & signature for Blade OS.

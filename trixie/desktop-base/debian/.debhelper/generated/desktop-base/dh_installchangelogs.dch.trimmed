@@ -1,0 +1,122 @@
+desktop-base (14.0) unstable; urgency=medium
+
+  * Alpha release
+
+ -- NovusOh <novus@novusoh.xyz>  Sun, 21 Jul 2024 7:11:11 -0600
+
+desktop-base (13.01) unstable; urgency=medium
+
+  * Updated plymouth theme
+
+ -- NovusOh <novus@novusoh.xyz>  Thu, 28 Mar 2024 11:48:00 -0600
+
+desktop-base (13.0) unstable; urgency=medium
+
+  * Update to version 13 (Blade OS).
+
+ -- NovusOh <novus@novusoh.xyz>  Wed, 27 Mar 2024 03:58:00 -0600
+
+desktop-base (12.0.6+nmu1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * prerm: Remove the emerald alternatives, too.  (Closes: #1035431)
+
+ -- Andreas Beckmann <anbe@debian.org>  Fri, 30 Jun 2023 12:36:56 +0200
+
+desktop-base (12.0.6) unstable; urgency=medium
+
+  * Fix LUKS password not being shown in multi-screen setup with mixed aspect
+    ratios.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Thu, 13 Apr 2023 21:58:23 +0200
+
+desktop-base (12.0.5) unstable; urgency=medium
+
+  * Make the GDM Debian footer slightly smaller.
+  * Even lighter Debian 12 text on emerald grub to improve grub text
+    readability.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Wed, 01 Mar 2023 23:22:32 +0100
+
+desktop-base (12.0.4) unstable; urgency=medium
+
+  * Add Debian swirl in circle as default profile icon for new users.
+  * Add more sizes for the Emerald wallpaper. (Closes: #1027841)
+  * Improvements to emerald plymouth theme’s visuals.
+  * Bump Standards-Version to 4.6.2, no change required.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Tue, 28 Feb 2023 00:21:39 +0100
+
+desktop-base (12.0.3) unstable; urgency=medium
+
+  * Update plymouth theme to implement Juliette’s proposal.
+  * Fix and improve Plasma desktop customization. (Closes: #954093)
+  * Update logos to Debian version 12. (Closes: #1026464)
+  * Improve grub theme. (Closes: #1027301)
+  * Remove older debian version numbers from assets. (Closes: #989822)
+  * Fix missing links in joy inksplat theme. (Closes: #1023148)
+  * Migrate wallpaper metadata from ini to json.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Sat, 18 Feb 2023 23:57:31 +0100
+
+desktop-base (12.0.2) unstable; urgency=medium
+
+  * Fix emerald theme paths in desktop xml file (Closes: #1026264) 
+
+ -- Jonathan Carter <jcc@debian.org>  Fri, 23 Dec 2022 19:31:20 +0200
+
+desktop-base (12.0.1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Remove 1 obsolete maintscript entry.
+  * Update standards version to 4.6.1, no changes needed.
+  * Update lintian override info format in d/desktop-base.lintian-overrides on
+    line 3-6.
+
+  [ Jonathan Carter ]
+  * Initial Emerald theme integration
+   - Update copyright years
+   - Start work in emerald-theme/ directory 
+   - Update plymouth background
+   - Update GNOME metadata
+   - Update alternatives in postinst
+   - Update Makefile with new entries
+
+ -- Jonathan Carter <jcc@debian.org>  Sun, 11 Dec 2022 13:45:45 +0200
+
+desktop-base (11.0.3) unstable; urgency=medium
+
+  * Make Debian logo and text darker on GRUB backgrounds to avoid grub’s own
+    text being unreadable on top of these. (Closes: #983884)
+  * Also remove futurePrototype alternative for desktop-theme in prerm
+    maintainer script. (Closes: #985267)
+  * Fix Name metadata for homeworld theme’s wallpaper.
+  * Also fix plymouth text display in multi-screen configurations for previous
+    themes: futureprototype, joy, lines, moonlight, softwaves (fixes more
+    cases of #956426).
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Sun, 21 Mar 2021 22:35:17 +0100
+
+desktop-base (11.0.2) unstable; urgency=medium
+
+  [ Holger Levsen ]
+  * README: Homeworld is the default theme for bullseye.
+
+  [ Aurélien COUDERC ]
+  * Improve Plymouth boot screen for Homeworld theme. (Closes: #956426)
+  * Align debian+text logos with Homeworld color palette, put bump Debian
+    version to 11 for login screens.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Tue, 02 Mar 2021 00:37:18 +0100
+
+desktop-base (11.0.1) unstable; urgency=medium
+
+  * New release
+  * Update standards version to 4.5.0
+  * Bump debhelper version to 13
+  * Add start of homeworld theme integration
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 15 Feb 2021 17:58:16 +0200
+
+# Older entries have been removed from this changelog.
+# To read the complete changelog use `apt changelog desktop-base`.

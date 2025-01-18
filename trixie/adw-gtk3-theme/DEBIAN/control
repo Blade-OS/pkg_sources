@@ -1,0 +1,8 @@
+Package: adw-gtk3-theme
+Version: 6.1
+Priority: optional
+Depends: bash, desktop-base, systemd
+Source: bladeos.xyz
+Maintainer: NovusOh <novus@novusoh.xyz>
+Architecture: all
+Description: libadwaita theme ported to GTK 3. Not everything is 100% accurate.

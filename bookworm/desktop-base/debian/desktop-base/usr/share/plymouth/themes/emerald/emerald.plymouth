@@ -1,0 +1,62 @@
+[Plymouth Theme]
+Name=Blade OS
+Description=Blade OS plymouth theme.
+ModuleName=two-step
+
+[two-step]
+Font=Cantarell 12
+TitleFont=Cantarell Light 30
+ImageDir=/usr/share/plymouth/themes/emerald
+DialogHorizontalAlignment=.5
+DialogVerticalAlignment=.682
+TitleHorizontalAlignment=.5
+TitleVerticalAlignment=.382
+HorizontalAlignment=.5
+VerticalAlignment=.7
+WatermarkHorizontalAlignment=.5
+WatermarkVerticalAlignment=.96
+Transition=none
+TransitionDuration=0.0
+BackgroundStartColor=0x000000
+BackgroundEndColor=0x000000
+ProgressBarBackgroundColor=0x606060
+ProgressBarForegroundColor=0xffffff
+DialogClearsFirmwareBackground=false
+MessageBelowAnimation=true
+
+[boot-up]
+UseEndAnimation=false
+UseFirmwareBackground=true
+
+[shutdown]
+UseEndAnimation=false
+UseFirmwareBackground=true
+SuppressMessages=true
+SubTitle=Shutting down...
+
+[reboot]
+UseEndAnimation=false
+UseFirmwareBackground=true
+SuppressMessages=true
+SubTitle=Restarting...
+
+[updates]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Updating your system...
+SubTitle=Please don't turn off your system.
+
+[system-upgrade]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Upgrading Blade OS...
+SubTitle=Please don't turn off your system.
+
+[firmware-upgrade]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Installing firmware update...
+SubTitle=Please don't turn off your system.

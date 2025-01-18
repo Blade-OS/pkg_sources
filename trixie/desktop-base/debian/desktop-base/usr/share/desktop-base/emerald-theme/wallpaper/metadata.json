@@ -1,0 +1,13 @@
+{
+    "KPlugin": {
+        "Name": "Gloomy Summit",
+        "Id": "Gloomy",
+        "License": "GPLv2+",
+        "Authors": [
+            {
+                "Name": "NovusOh",
+                "Email": "novus@novusoh.xyz"
+            }
+        ]
+    }
+}
