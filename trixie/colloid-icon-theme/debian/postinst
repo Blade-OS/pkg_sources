@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Keep current directory
+CURRENT_DIR=$(pwd)
+
+# Change directory to icon theme
+cd /usr/share/colloid-installer/theme/
+
+# Install theme
+chmod +x ./install.sh
+./install.sh
+
+# Change directory back
+cd $CURRENT_DIR

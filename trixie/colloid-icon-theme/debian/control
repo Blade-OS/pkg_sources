@@ -1,0 +1,13 @@
+Source: colloid-icon-theme
+Section: base
+Priority: optional
+Maintainer: NovusOh <novus@novusoh.xyz>
+
+Package: colloid-icon-theme
+Version: 25.02.09
+Architecture: all
+Maintainer: NovusOh <novus@novusoh.xyz>
+Depends: bash, desktop-base, systemd
+Section: base
+Priority: optional
+Description: Colloid icon theme by vinceliuice

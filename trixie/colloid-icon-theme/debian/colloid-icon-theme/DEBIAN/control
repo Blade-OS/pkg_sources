@@ -1,0 +1,9 @@
+Package: colloid-icon-theme
+Version: 25.02.09
+Architecture: all
+Maintainer: NovusOh <novus@novusoh.xyz>
+Installed-Size: 49374
+Depends: bash, desktop-base, systemd
+Section: base
+Priority: optional
+Description: Colloid icon theme by vinceliuice
