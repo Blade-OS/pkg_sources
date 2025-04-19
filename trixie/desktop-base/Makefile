@@ -75,7 +75,7 @@ install-local:
 	# GNOME background descriptors
 	mkdir -p $(DESTDIR)/usr/share/gnome-background-properties
 
-	# emerald theme (TBD for release)
+	# emerald theme (Bookworm’s default)
 	### Plymouth theme
 	install -d $(DESTDIR)/usr/share/plymouth/themes/emerald
 	$(INSTALL_DATA) $(wildcard emerald-theme/plymouth/*) $(DESTDIR)/usr/share/plymouth/themes/emerald

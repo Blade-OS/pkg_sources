@@ -7,9 +7,6 @@ files = \
 
 build: $(files)
 
-clean:
-	rm -f background.png
-
 install:
 	install -d $(DESTDIR)/$(dir)
 	$(INSTALL_DATA) $(wildcard *.png *.sh) $(DESTDIR)/$(dir)

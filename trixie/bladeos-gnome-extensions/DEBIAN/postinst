@@ -1,4 +1,0 @@
-#!/bin/sh
-set -e
-
-chmod +0775 /usr/share/gnome-shell/extensions/*

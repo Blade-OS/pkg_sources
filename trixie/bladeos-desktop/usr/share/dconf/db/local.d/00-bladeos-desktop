@@ -1,0 +1,4 @@
+[org/gnome/desktop/interface]
+gtk-theme="Adw-gtk3"
+font-name="Comfortaa 11"
+icon-theme="Colloid"

@@ -1,3 +1,10 @@
+base-files (13.4) stable; urgency=medium
+
+  * Change debian-version to 12.10
+  * Updated to 24.4
+
+ -- NovusOh <novus@novusoh.xyz>  Sun, 23 Mar 2025 15:09:00 -600
+
 base-files (13.3) stable; urgency=medium
 
   * Change debian-version to 12.9

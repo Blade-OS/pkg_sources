@@ -1,12 +1,12 @@
 {
     "KPlugin": {
-        "Name": "Gloomy Summit",
-        "Id": "Gloomy",
-        "License": "GPLv2+",
+        "Name": "Blade OS",
+        "Id": "Emerald",
+        "License": "MIT",
         "Authors": [
             {
-                "Name": "NovusOh",
-                "Email": "novus@novusoh.xyz"
+                "Name": "Cole Ames",
+                "Email": "cole@colebolebole.xyz"
             }
         ]
     }

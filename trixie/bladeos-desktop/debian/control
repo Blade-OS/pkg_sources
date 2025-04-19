@@ -1,0 +1,13 @@
+Source: bladeos-desktop
+Section: gnome
+Priority: optional
+Maintainer: NovusOh <novus@novusoh.xyz>
+
+Package: bladeos-desktop
+Version: 13.0~pre1
+Architecture: all
+Maintainer: NovusOh <novus@novusoh.xyz>
+Depends: bash, desktop-base, systemd, gnome-shell, gnome-shell-extension-appindicator, fonts-comfortaa, adw-gtk3-theme
+Section: gnome
+Priority: optional
+Description: GNOME session for Blade OS.

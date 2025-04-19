@@ -1,9 +1,9 @@
-d7e40abee4723ae67839abfef0c37bd2  usr/lib/os-release
+d088bfb8fefbca5987f9b5559a4eec39  usr/lib/os-release
 0a540d50c157ed0070459b82c358a05a  usr/share/base-files/dot.bashrc
 d68ce7c7d7d2bb7d48aeb2f137b828e4  usr/share/base-files/dot.profile
 6db82730e03aaeeecb8fee76b73d96d4  usr/share/base-files/dot.profile.md5sums
 f9128f409878ce10d54d06488e3ce136  usr/share/base-files/info.dir
-c9fffec71c6175f47d5bd8267bec5af8  usr/share/base-files/motd
+b6227002036af2b854a98db65ea1bbda  usr/share/base-files/motd
 48a30a427d1794feb49f102b87ddce2b  usr/share/base-files/profile
 9be77181dd5dcc2b87956e3d45ed191d  usr/share/base-files/profile.md5sums
 f3b332b9a376a0567236f54d7d87f85e  usr/share/base-files/staff-group-for-usr-local
@@ -23,6 +23,6 @@ b234ee4d69f5fce4486a80fdaf4a4263  usr/share/common-licenses/GPL-2
 815ca599c9df247a0c7f619bab123dad  usr/share/common-licenses/MPL-2.0
 af032ddc1821dfc3eb1dbb5883910119  usr/share/doc/base-files/README
 fbd937e067f0a83fb9422713a6b84a8a  usr/share/doc/base-files/README.FHS
-cb5c1927f670f00d44d2ab631c499544  usr/share/doc/base-files/changelog.gz
+e6aab85e15e5237ab981fec2a3cb3438  usr/share/doc/base-files/changelog.gz
 1b8bb96d42614948cb7de2882e191734  usr/share/doc/base-files/copyright
 9dbaaf7a8333c30200f3d11e831acb82  usr/share/lintian/overrides/base-files

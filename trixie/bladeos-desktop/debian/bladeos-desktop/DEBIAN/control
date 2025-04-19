@@ -1,0 +1,9 @@
+Package: bladeos-desktop
+Version: 13.0~pre1
+Architecture: all
+Maintainer: NovusOh <novus@novusoh.xyz>
+Installed-Size: 3052
+Depends: bash, desktop-base, systemd, gnome-shell, gnome-shell-extension-appindicator, fonts-comfortaa, adw-gtk3-theme
+Section: gnome
+Priority: optional
+Description: GNOME session for Blade OS.

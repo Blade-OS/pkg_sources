@@ -1,0 +1,4 @@
+usr/share/gnome-shell/ /usr/share/
+usr/share/wayland-sessions/ /usr/share/
+usr/share/xsessions/ /usr/share/
+usr/share/dconf/ /usr/share/

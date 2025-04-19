@@ -1,3 +1,9 @@
+bladeos-repo (13.1) bookworm; urgency=medium
+
+* Update to new Debian standards
+
+-- NovusOh
+
 bladeos-repo (13.0) bookworm; urgency=high
 
 * Update server URL
