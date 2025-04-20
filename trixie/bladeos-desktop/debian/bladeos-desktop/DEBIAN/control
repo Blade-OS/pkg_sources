@@ -1,9 +1,0 @@
-Package: bladeos-desktop
-Version: 13.0~pre2
-Architecture: all
-Maintainer: NovusOh <novus@novusoh.xyz>
-Installed-Size: 3058
-Depends: bash, desktop-base, systemd, gnome-shell, gnome-session, gnome-shell-extension-appindicator, fonts-quicksand, adw-gtk3-theme, colloid-icon-theme, wireplumber, gir1.2-gmenu-3.0, xwayland, accountsservice, dconf-cli, gufw, gnome-keyring, gvfs-backends, gvfs-fuse, light-locker, gnome-software, flatpak, gnome-software-plugin-flatpak, gnome-tweaks, appstream, gnome-initial-setup, geary, rhythmbox, gnome-terminal
-Section: gnome
-Priority: optional
-Description: GNOME session for Blade OS.
