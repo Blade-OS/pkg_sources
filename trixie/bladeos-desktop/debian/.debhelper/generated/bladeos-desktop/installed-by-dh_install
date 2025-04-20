@@ -1,4 +1,4 @@
 ./usr/share/gnome-shell/
 ./usr/share/wayland-sessions/
 ./usr/share/xsessions/
-./usr/share/dconf/
+./etc/dconf/

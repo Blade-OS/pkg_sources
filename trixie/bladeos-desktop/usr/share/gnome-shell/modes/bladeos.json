@@ -6,6 +6,7 @@
         "dash-to-dock@micxgx.gmail.com",
         "quick-settings-avatar@d-go",
         "quick-settings-tweaks@qwreey",
-	"ubuntu-appindicators@ubuntu.com"
+	"ubuntu-appindicators@ubuntu.com",
+	"gtk3-theme-switcher@charlieqle"
     ]
 }

@@ -21,25 +21,15 @@ for EXTENSION in "$EXTENSIONS_DIR"/*; do
     
     # If the schemas directory exists, compile the schemas
     if [ -d "$SCHEMAS_DIR" ]; then
-      echo "Compiling schemas for extension: $EXTENSION"
 
       # Compile the schemas for this extension
       glib-compile-schemas "$SCHEMAS_DIR"
-
-      if [ $? -eq 0 ]; then
-        echo "Schemas for extension '$EXTENSION' compiled successfully."
-      else
-        echo "Error compiling schemas for extension '$EXTENSION'."
-      fi
-    else
-      # Skip this extension if there's no schemas directory
-      echo "No 'schemas' directory found for extension: $EXTENSION. Skipping."
     fi
   fi
 done
 
 # Update the GSettings schema cache
-echo "Updating GSettings schema cache..."
 glib-compile-schemas /usr/share/glib-2.0/schemas
 
-echo "Script completed."
+# Update Default Config
+dconf update

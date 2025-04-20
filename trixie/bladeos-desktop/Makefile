@@ -27,5 +27,6 @@ clean:
 	@echo "Cleaning build files..."
 	rm -rf $(SRC_DIR)/*
 	rm -f $(DEB_PACKAGE)
+	rm -rf $(DEBIAN_DIR)/$(PACKAGE_NAME)
 
 .PHONY: all prepare deb clean

@@ -1,0 +1,19 @@
+[org/gnome/desktop/interface]
+gtk-theme='adw-gtk3'
+font-name='Quicksand Medium, Medium 11'
+document-font-name='Quicksand Medium, Medium 11'
+monospace-font-name='Noto Mono Regular 11'
+icon-theme='Colloid'
+
+[org/gnome/shell]
+favorite-apps=['calamares-install-debian.desktop', 'org.mozilla.firefox.desktop', 'org.gnome.Natuilus.desktop', 'org.gnome.Software.desktop', 'org.libreoffice.LibreOffice.desktop', 'yelp.desktop']
+
+[org/gnome/desktop/wm/preferences]
+button-layout=':minimize,maximize,close'
+
+[org/gnome/shell/extensions/gtk3-theme-switcher]
+light='adw-gtk3'
+dark='adw-gtk3-dark'
+
+[org/gnome/shell/extensions/dash-to-dock]
+apply-custom-theme='true'
