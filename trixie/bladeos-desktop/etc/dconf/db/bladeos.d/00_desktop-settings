@@ -6,7 +6,7 @@ monospace-font-name='Noto Mono Regular 11'
 icon-theme='Colloid'
 
 [org/gnome/shell]
-favorite-apps=['calamares-install-debian.desktop', 'org.mozilla.firefox.desktop', 'org.gnome.Natuilus.desktop', 'org.gnome.Software.desktop', 'org.libreoffice.LibreOffice.desktop', 'yelp.desktop']
+favorite-apps=['calamares-install-debian.desktop', 'org.mozilla.firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Software.desktop', 'org.libreoffice.LibreOffice.desktop', 'yelp.desktop']
 
 [org/gnome/desktop/wm/preferences]
 button-layout=':minimize,maximize,close'
