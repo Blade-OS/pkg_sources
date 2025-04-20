@@ -3,4 +3,3 @@ usr/share/wayland-sessions/ /usr/share/
 usr/share/xsessions/ /usr/share/
 usr/bin/	/usr/
 etc/dconf/ /etc/
-etc/gdm/ /etc/
