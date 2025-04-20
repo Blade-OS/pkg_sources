@@ -1,0 +1,12 @@
+{
+    "parentMode": "user",
+    "enabledExtensions": [
+        "blur-my-shell@aunetx",
+        "caffeine@patapon.info",
+        "dash-to-dock@micxgx.gmail.com",
+        "quick-settings-avatar@d-go",
+        "quick-settings-tweaks@qwreey",
+	"ubuntu-appindicators@ubuntu.com",
+	"gtk3-theme-switcher@charlieqle"
+    ]
+}

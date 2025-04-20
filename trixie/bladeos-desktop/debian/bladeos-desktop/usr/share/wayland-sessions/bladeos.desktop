@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Blade OS
+Comment=The default desktop for Blade OS.
+Exec=/usr/bin/bladeos-session
+TryExec=/usr/bin/gnome-shell
+Type=Application
+DesktopNames=blade:GNOME
+X-GDM-SessionRegisters=true

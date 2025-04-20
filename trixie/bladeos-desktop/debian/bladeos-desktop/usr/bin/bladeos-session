@@ -1,0 +1,2 @@
+#!/bin/bash
+env GNOME_SHELL_SESSION_MODE=bladeos /usr/bin/gnome-session
