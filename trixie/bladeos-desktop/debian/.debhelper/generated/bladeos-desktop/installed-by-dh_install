@@ -1,5 +1,1 @@
-./usr/share/gnome-shell/
-./usr/share/wayland-sessions/
-./usr/share/xsessions/
-./usr/bin/
 ./etc/dconf/

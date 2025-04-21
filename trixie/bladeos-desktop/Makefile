@@ -1,6 +1,6 @@
 # Package details
 PACKAGE_NAME = bladeos-desktop
-GNOME_DIR = usr/share/gnome-shell
+GNOME_DIR = usr/share/gnome-shell/extensions/
 DEB_PACKAGE = $(PACKAGE_NAME)_$(PACKAGE_VERSION)_$(PACKAGE_ARCH).deb
 
 # Directories for packaging
@@ -10,10 +10,10 @@ SRC_DIR = ./src
 # Prepare build directories
 prepare:
 	@echo "Setting up directories for the package..."
-	mkdir -p $(SRC_DIR)/usr/share/gnome-shell/extensions
+	mkdir -p $(SRC_DIR)/usr/share/gnome-shell/extensions/
 
 	@echo "Copying GNOME extension..."
-	cp -r $(GNOME_DIR)/* $(SRC_DIR)/usr/share/gnome-shell/
+	cp -r $(GNOME_DIR)/* $(SRC_DIR)/usr/share/gnome-shell/extensions/
 
 # Build the source and binary package using dpkg-buildpackage
 deb: prepare
