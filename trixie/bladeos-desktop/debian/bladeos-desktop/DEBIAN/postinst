@@ -1,0 +1,35 @@
+#!/bin/bash
+
+# This script compiles GSettings schemas for GNOME extensions located in /usr/share/gnome-shell/extensions
+# It will skip extensions that do not contain a 'schemas' directory.
+
+# Directory for GNOME extensions
+EXTENSIONS_DIR="/usr/share/gnome-shell/extensions"
+
+# Check if the directory exists
+if [ ! -d "$EXTENSIONS_DIR" ]; then
+  echo "Error: $EXTENSIONS_DIR does not exist."
+  exit 1
+fi
+
+# Find all the extensions in the directory
+for EXTENSION in "$EXTENSIONS_DIR"/*; do
+  # Check if it's a directory (to handle only extension directories)
+  if [ -d "$EXTENSION" ]; then
+    # Look for the schemas directory in each extension
+    SCHEMAS_DIR="$EXTENSION/schemas"
+    
+    # If the schemas directory exists, compile the schemas
+    if [ -d "$SCHEMAS_DIR" ]; then
+
+      # Compile the schemas for this extension
+      glib-compile-schemas "$SCHEMAS_DIR"
+    fi
+  fi
+done
+
+# Update the GSettings schema cache
+glib-compile-schemas /usr/share/glib-2.0/schemas
+
+# Update Default Config
+dconf update
