@@ -1,9 +1,12 @@
-PRETTY_NAME="Blade OS Preview"
+PRETTY_NAME="Blade OS 25 (Gloomy Summit)"
 NAME="Blade OS"
+VERSION_ID="25"
+VERSION="25 (Gloomy Summit)"
 VERSION_CODENAME=gloomy
+DEBIAN_CODENAME=trixie
+DEBIAN_VERSION_FULL=13.0
 ID=bladeos
 ID_LIKE=debian
 HOME_URL="https://bladeos.xyz/"
 SUPPORT_URL="https://bladeos.xyz/support"
-BUG_REPORT_URL="https://bladeos.xyz/bugs"
-
+BUG_REPORT_URL="https://bugs.bladeos.xyz/"

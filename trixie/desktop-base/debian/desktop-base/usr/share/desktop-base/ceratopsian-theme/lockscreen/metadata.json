@@ -1,0 +1,13 @@
+{
+    "KPlugin": {
+        "Name": "Blade OS Blue",
+        "Id": "BladeOSBlue",
+        "License": "MIT",
+        "Authors": [
+            {
+                "Name": "NovusOh",
+                "Email": "novus@novusoh.xyz"
+            }
+        ]
+    }
+}

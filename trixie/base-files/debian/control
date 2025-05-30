@@ -2,12 +2,14 @@ Source: base-files
 Section: admin
 Priority: required
 Maintainer: Santiago Vila <sanvila@debian.org>
-Standards-Version: 4.6.2
+Standards-Version: 4.7.2
 Build-Depends: debhelper-compat (= 13), debhelper (>= 13.10~)
-Rules-Requires-Root: binary-targets
+Vcs-Git: https://salsa.debian.org/sanvila/base-files.git
+Vcs-Browser: https://salsa.debian.org/sanvila/base-files
+Rules-Requires-Root: no
 
 Package: base-files
-Provides: base
+Provides: base, usr-is-merged
 Architecture: any
 Pre-Depends: awk
 Depends: ${misc:Depends}
@@ -16,4 +18,4 @@ Priority: required
 Replaces: base, miscutils, dpkg (<= 1.15.0)
 Breaks: debian-security-support (<< 2019.04.25), initscripts (<< 2.88dsf-13.3), sendfile (<< 2.1b.20080616-5.2~)
 Multi-Arch: foreign
-Description: This packages contains the Blade OS base files.
+Description: Blade OS base system files.
