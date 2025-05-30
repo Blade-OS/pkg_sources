@@ -1,9 +1,0 @@
-PRETTY_NAME="Blade OS"
-NAME="Blade OS"
-VERSION_CODENAME=gloomy
-DEBIAN_CODENAME=trixie
-ID=bladeos
-ID_LIKE=debian
-HOME_URL="https://bladeos.xyz/"
-SUPPORT_URL="https://bladeos.xyz/support"
-BUG_REPORT_URL="https://bladeos.xyz/bugs"
