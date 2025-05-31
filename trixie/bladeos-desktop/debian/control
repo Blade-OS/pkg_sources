@@ -4,10 +4,11 @@ Priority: optional
 Maintainer: NovusOh <novus@novusoh.xyz>
 
 Package: bladeos-desktop
-Version: 13.0~pre2
+Version: 13.0~pre3
 Architecture: all
 Maintainer: NovusOh <novus@novusoh.xyz>
 Depends: bash, desktop-base, systemd, gnome-shell, gnome-core, gnome-session, gnome-session-common, gnome-session-bin, gnome-shell-extension-appindicator, fonts-quicksand, adw-gtk3-theme, colloid-icon-theme, wireplumber, gir1.2-gmenu-3.0, xwayland, accountsservice, dconf-cli, gufw, gnome-keyring, gvfs-backends, gvfs-fuse, light-locker, gnome-software, flatpak, gnome-software-plugin-flatpak, gnome-tweaks, appstream, gnome-initial-setup, geary, rhythmbox, gnome-terminal
+Replaces: bladeos-gnome-shell, bladeos-gnome-extensions
 Section: gnome
 Priority: optional
 Description: GNOME session for Blade OS.
