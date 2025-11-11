@@ -78,7 +78,7 @@ emerald 40
 EOF
 
     # Use active theme as highest priority for background
-    active_background=/usr/share/desktop-base/active-theme/wallpaper/contents/images/wallpaper.png
+    active_background=/usr/share/desktop-base/active-theme/wallpaper/contents/images/horizons.jpg
     if [ -e ${active_background} ]; then
         update-alternatives --install \
             /usr/share/images/desktop-base/desktop-background \
@@ -91,7 +91,7 @@ EOF
             desktop-background \
             /usr/share/desktop-base/$theme-theme/wallpaper/contents/images/$filename $priority
     done << EOF
-ceratopsian wallpaper.png 65
+ceratopsian horizons.jpg 65
 emerald 1920x1080.svg 50
 EOF
 

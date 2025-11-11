@@ -2,7 +2,7 @@ Package: desktop-base
 Version: 25.0
 Architecture: all
 Maintainer: Debian Desktop Team <debian-desktop@lists.debian.org>
-Installed-Size: 159877
+Installed-Size: 159869
 Depends: librsvg2-common, fonts-quicksand
 Recommends: plymouth-label
 Suggests: gnome | kde-standard | xfce4 | wmaker
