@@ -1,11 +1,5 @@
-bladeos-desktop (13.0~pre2) bookworm; urgency=low
+bladeos-desktop (25.0) bookworm; urgency=medium
 
-* Fixes alot of bugs
-
--- NovusOh
-
-bladeos-desktop (13.0~pre1) bookworm; urgency=none
-
-* Introduce new session
+* Final release
 
 -- NovusOh
