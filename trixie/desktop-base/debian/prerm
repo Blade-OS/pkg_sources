@@ -16,11 +16,11 @@ if [ "$1" = "remove" ] || [ "$1" = "deconfigure" ]; then
             desktop-background \
             /usr/share/desktop-base/$theme-theme/wallpaper/contents/images/$filename
     done << EOF
-ceratopsian wallpaper.png
+ceratopsian horizons.jpg
 emerald 1920x1080.svg
 EOF
     # *Last* remove background *highest priority* alternatives for active theme
-    update-alternatives --remove desktop-background /usr/share/desktop-base/active-theme/wallpaper/contents/images/wallpaper.png
+    update-alternatives --remove desktop-background /usr/share/desktop-base/active-theme/wallpaper/contents/images/horizons.jpg
 
     # Remove desktop-background.xml alternatives
     # For theme packages

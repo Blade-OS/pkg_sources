@@ -31,11 +31,6 @@ build-logos clean-logos install-logos:
 install: install-grub install-emblems install-logos install-local
 
 install-local:
-	# debian logo in circle as default user face icon
-	install -d $(DESTDIR)/etc/skel
-	$(INSTALL_DATA) defaults/common/etc/skel/.face $(DESTDIR)/etc/skel
-	cd $(DESTDIR)/etc/skel && ln -s .face .face.icon
-
 	# background files
 	mkdir -p $(DESTDIR)/usr/share/images/desktop-base
 	cd $(DESTDIR)/usr/share/images/desktop-base && ln -s $(DEFAULT_BACKGROUND) default
