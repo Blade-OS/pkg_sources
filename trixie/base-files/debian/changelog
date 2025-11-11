@@ -1,5 +1,5 @@
-base-files (14.0.0~beta1) unstable; urgency=medium
+base-files (25.0) stable; urgency=medium
 
-  * Major updates
+  * Stable release
 
- -- NovusOh <novus@novusoh.xyz>  Fri, 30 May 2025 16:03:00 -0600
+ -- NovusOh <novus@novusoh.xyz>  Mon, 10 Nov 2025 17:45:00 -0600

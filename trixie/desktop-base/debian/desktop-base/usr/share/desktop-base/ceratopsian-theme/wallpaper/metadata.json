@@ -1,12 +1,12 @@
 {
     "KPlugin": {
-        "Name": "Blade OS Blue",
-        "Id": "BladeOSBlue",
-        "License": "MIT",
+        "Name": "Rio de Janeiro, Brazil",
+        "Id": "RioDeJanerio",
+        "License": "CC",
         "Authors": [
             {
-                "Name": "NovusOh",
-                "Email": "novus@novusoh.xyz"
+                "Name": "Unknown Photographer",
+                "Email": "unknown"
             }
         ]
     }

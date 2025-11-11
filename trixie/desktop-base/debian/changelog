@@ -1,5 +1,5 @@
-desktop-base (14.0.0~beta1) unstable; urgency=medium
+desktop-base (25.0) stable; urgency=medium
 
-  * Major branding changes + more
+  * Finalize branding
 
- -- NovusOh <novus@novusoh.xyz>  Fri, 30 May 2025 15:54:00 -0600
+ -- NovusOh <novus@novusoh.xyz>  Mon, 10 Nov 2025 18:07:00 -0600

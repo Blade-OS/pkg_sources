@@ -1,5 +1,5 @@
 Package: base-files
-Version: 14.0.0~beta1
+Version: 25.0
 Architecture: amd64
 Essential: yes
 Maintainer: Santiago Vila <sanvila@debian.org>

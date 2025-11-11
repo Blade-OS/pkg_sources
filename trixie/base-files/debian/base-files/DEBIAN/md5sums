@@ -1,4 +1,4 @@
-011e56b099773663d0e24696790abe74  usr/lib/os-release
+3dc0d3e2d738761e08e45870d87c0441  usr/lib/os-release
 a900ca45b16bdadb3ad5e5177710d3a7  usr/share/base-files/dot.bashrc
 04fd980ef599a6d7bfd5dc5454421795  usr/share/base-files/dot.profile
 9bbd1954937d5d7d3fe5ba394aa56c2d  usr/share/base-files/dot.profile.md5sums
@@ -24,6 +24,6 @@ a22d0be1ce2284b67950a4d1673dd1b0  usr/share/common-licenses/GFDL-1.3
 e4734539bd9a636f54609b44fec838b0  usr/share/doc/base-files/NEWS.Debian.gz
 7041d317c02690d4153b17aa77ad9384  usr/share/doc/base-files/README
 fbd937e067f0a83fb9422713a6b84a8a  usr/share/doc/base-files/README.FHS
-ce8a583f21c9553c38852b07ef73d640  usr/share/doc/base-files/changelog.gz
+bcce3f871f77dd43523119ab5d4337f8  usr/share/doc/base-files/changelog.gz
 9505ca209fb66f8ec0cb06166900addb  usr/share/doc/base-files/copyright
 8f222efc79f01c7eaa790bc845126efe  usr/share/lintian/overrides/base-files
